@@ -1,0 +1,28 @@
+[
+	[
+		{"bn":"ECU","n":"inverter","vs":"info"},
+	    {"n":"FLmotorTemp","u":"%","v":"motorTemp_FL"},
+	    {"n":"FRmotorTemp","u":"%","v":"motorTemp_FR"},
+	    {"n":"BLmotorTemp","u":"%","v":"motorTemp_RL"},
+	    {"n":"BRmotorTemp","u":"%","v":"motorTemp_RR"},
+	    {"n":"FLinverterTemp","u":"%","v":"inverterTemp_FL"},
+	    {"n":"FRinverterTemp","u":"%","v":"inverterTemp_FR"},
+	    {"n":"BLinverterTemp","u":"%","v":"inverterTemp_RL"},
+	    {"n":"BRinverterTemp","u":"%","v":"inverterTemp_RR"}
+	],
+	[
+		{"bn":"ECU","n":"accu","vs":"sensor"},
+	    {"n":"charge","u":"%","v":"accuStateOfCharge"}
+	],
+    [
+      {"bn":"ECU","n":"error","vs":"code"},
+      {"n":"code","v":""} 
+    ],
+	[
+		{"bn":"ECU","n":"driverless","vs":"control"},
+		{"n":"steeringAngle","u":"°","v":"steeringAngle"},
+		{"n":"throttle","u":"%","v":"dvThrottle"},
+		{"n":"brake","u":"%","v":"dvBrake"}
+	]
+
+]  

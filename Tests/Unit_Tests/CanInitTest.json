@@ -1,0 +1,449 @@
+{
+    "Can 0":[
+        {
+            "Init Message": true,
+            "Name": "InitFrameTest1",
+            "ID": "220",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "InitFrameData1",
+                    "Start Bit": 6,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "InitFrameData2",
+                    "Start Bit": 16,
+                    "Bit Size": 16
+                },
+                {
+                    "Name": "InitFrameData3",
+                    "Start Bit": 32,
+                    "Bit Size": 4
+                }
+            ], 
+            "Digital":[
+                {
+                    "Name": "InitFrameData4",
+                    "Start Bit": 0
+                },
+                {
+                    "Name": "InitFrameData5",
+                    "Start Bit": 2
+                }
+            ]
+        },
+        {
+            "Init Message": true,
+            "Name": "InitFrameTest2",
+            "ID": "220",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "InitFrameData6",
+                    "Start Bit": 20,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "InitFrameData7",
+                    "Start Bit": 15,
+                    "Bit Size": 4
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "InitFrameData8",
+                    "Start Bit": 4
+                },
+                {
+                    "Name": "InitFrameData9",
+                    "Start Bit": 6
+                }
+            ]
+        }
+        ,{
+            "Init Message": false,
+            "Name": "InputTest1",
+            "ID": "320",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "AnalogInput1",
+                    "Start Bit": 6,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "AnalogInput2",
+                    "Start Bit": 16,
+                    "Bit Size": 16
+                },
+                {
+                    "Name": "AnalogInput3",
+                    "Start Bit": 32,
+                    "Bit Size": 4
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "DigitalInput1",
+                    "Start Bit": 1
+                },
+                {
+                    "Name": "DigitalInput2",
+                    "Start Bit": 2
+                },
+                {
+                    "Name": "DigitalInput3",
+                    "Start Bit": 3
+                }
+            ]
+        },
+        {
+            "Init Message": false,
+            "Name": "InputTest2",
+            "ID": "340",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "AnalogInput4",
+                    "Start Bit": 20,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "AnalogInput5",
+                    "Start Bit": 15,
+                    "Bit Size": 4
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "DigitalInput4",
+                    "Start Bit": 32
+                },
+                {
+                    "Name": "DigitalInput5",
+                    "Start Bit": 34
+                }
+            ]
+        }
+    ],
+    "Can 1":[
+        {
+            "Init Message": false,
+            "Name": "OutputTest1",
+            "ID": "520",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "AnalogOutput1",
+                    "Start Bit": 8,
+                    "Bit Size": 2
+                },
+                {
+                    "Name": "AnalogOutput2",
+                    "Start Bit": 18,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "AnalogOutput3",
+                    "Start Bit": 32,
+                    "Bit Size": 8
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "DigitalOutput1",
+                    "Start Bit": 0
+                },
+                {
+                    "Name": "DigitalOutput2",
+                    "Start Bit": 55
+                }
+            ]
+        },{
+            "Init Message": false,
+            "Name": "OutputTest2",
+            "ID": "540",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "AnalogOutput4",
+                    "Start Bit": 2,
+                    "Bit Size": 6
+                },
+                {
+                    "Name": "AnalogOutput5",
+                    "Start Bit": 8,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "AnalogOutput6",
+                    "Start Bit": 18,
+                    "Bit Size": 8
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "DigitalOutput3",
+                    "Start Bit": 0
+                },
+                {
+                    "Name": "DigitalOutput4",
+                    "Start Bit": 1
+                }
+            ]
+        },
+        {
+            "Init Message": false,
+            "Name": "SyncFrame2",
+            "ID": "860",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Sync Frame": "SyncFrame1",
+            "Analog":[
+                {
+                    "Name": "syncData6",
+                    "Start Bit": 6,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "syncData7",
+                    "Start Bit": 16,
+                    "Bit Size": 16
+                },
+                {
+                    "Name": "syncData8",
+                    "Start Bit": 32,
+                    "Bit Size": 4
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "syncData9",
+                    "Start Bit": 1
+                },
+                {
+                    "Name": "syncData10",
+                    "Start Bit": 2
+                }
+            ]
+        }   
+    ],
+    "Can 2":[
+        {
+            "Init Message": false,
+            "Name": "SyncFrame1",
+            "ID": "870",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Sync Frame": "SyncFrame2",
+            "Analog":[
+                {
+                    "Name": "syncData1",
+                    "Start Bit": 6,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "syncData2",
+                    "Start Bit": 16,
+                    "Bit Size": 16
+                },
+                {
+                    "Name": "syncData3",
+                    "Start Bit": 32,
+                    "Bit Size": 4
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "syncData4",
+                    "Start Bit": 1
+                },
+                {
+                    "Name": "syncData5",
+                    "Start Bit": 2
+                }
+            ]
+        },
+        {
+            "Init Message": false,
+            "Name": "MappingTest1",
+            "ID": "680",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "mapData1",
+                    "Start Bit": 6,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "mapData2",
+                    "Start Bit": 16,
+                    "Bit Size": 16
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "mapData3",
+                    "Start Bit": 1
+                },
+                {
+                    "Name": "mapData4",
+                    "Start Bit": 2
+                }
+            ]
+        },
+        {
+            "Init Message": false,
+            "Name": "MappingTest2",
+            "ID": "690",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "mapData5",
+                    "Start Bit": 6,
+                    "Bit Size": 10
+                },
+                {
+                    "Name": "mapData6",
+                    "Start Bit": 16,
+                    "Bit Size": 16
+                }
+            ],
+            "Digital":[
+                {
+                    "Name": "mapData7",
+                    "Start Bit": 1
+                },
+                {
+                    "Name": "mapData8",
+                    "Start Bit": 2
+                }
+            ]
+        },{
+            "Init Message": false,
+            "Name": "ByteInvertedTest",
+            "ID": "7700",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "notInverted",
+                    "Start Bit": 0,
+                    "Bit Size": 16
+                },
+                {
+                    "Name": "inverted",
+                    "Start Bit": 16,
+                    "Bit Size": 16,
+                    "Byte Inverted": true
+                }
+            ],
+            "Digital":[
+
+            ]
+        },{
+            "Init Message": false,
+            "Name": "ByteInvertedOutputTest",
+            "ID": "7701",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "notInverted1",
+                    "Start Bit": 0,
+                    "Bit Size": 16
+                },
+                {
+                    "Name": "inverted1",
+                    "Start Bit": 16,
+                    "Bit Size": 16,
+                    "Byte Inverted": true
+                }
+            ],
+            "Digital":[
+
+            ]
+        },{
+            "Init Message": false,
+            "Name": "datatypeTest1",
+            "ID": "222",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "floatData1",
+                    "Start Bit": 0,
+                    "Bit Size": 32
+                },
+                {
+                    "Name": "uint32Data1",
+                    "Start Bit": 32,
+                    "Bit Size": 32
+                }
+            ],
+            "Digital":[
+
+            ]
+        },{
+            "Init Message": false,
+            "Name": "datatypeTest2",
+            "ID": "202",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "doubleData",
+                    "Start Bit": 0,
+                    "Bit Size": 64
+                }
+            ],
+            "Digital":[
+
+            ]
+        },{
+            "Init Message": false,
+            "Name": "datatypeTest3",
+            "ID": "201",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "OUT",
+            "Analog":[
+                {
+                    "Name": "int64Data1",
+                    "Start Bit": 0,
+                    "Bit Size": 64
+                }
+            ],
+            "Digital":[
+
+            ]
+        },
+        {
+            "Init Message": false,
+            "Name": "datatypeTest4",
+            "ID": "200",
+            "Cycle Time": "10",
+            "IN/OUT Frame": "IN",
+            "Analog":[
+                {
+                    "Name": "uint64Data1",
+                    "Start Bit": 0,
+                    "Bit Size": 64
+                }
+            ],
+            "Digital":[
+
+            ]
+        }
+    ]
+}
+    
+    

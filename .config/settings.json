@@ -1,0 +1,20 @@
+{
+    "connection": {
+        "datalogger": {
+            "port": 3030,
+            "state": false
+        },
+        "diagnostic": {
+            "port": 8080,
+            "state": false
+        },
+        "driverless": {
+            "port": 2020,
+            "state": true
+        },
+        "display": {
+            "port": 9001,
+            "state": true
+        }
+    }
+}

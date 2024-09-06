@@ -1,0 +1,12 @@
+/.vscode
+/build
+/Libraries/pfr
+/Libraries/json
+/Libraries/spdlog
+/Tests/Test_Librarys/googletest
+
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+*.exe
+.doxygen

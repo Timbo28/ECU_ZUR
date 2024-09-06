@@ -1,0 +1,754 @@
+{
+            "Can 2": [
+                {
+                    "Name": "pedalRight",
+                    "ID": "310",
+                    "IN/OUT Frame": "IN",
+                    "Sync Frame": "pedalLeft",
+                    "Analog":[
+                        {
+                            "Name": "throttleRightMax",
+                            "Start Bit": 10,
+                            "Bit Size": 10
+                        },
+                        {
+                            "Name": "throttleRightMin",
+                            "Start Bit": 40,
+                            "Bit Size": 10
+                        },
+                        {
+                            "Name": "throttleRightValue",
+                            "Start Bit": 0,
+                            "Bit Size": 10
+                        },
+                        {
+                            "Name": "breakPressureRear",
+                            "Start Bit": 20,
+                            "Bit Size": 10
+                        
+                        }
+                   ],
+                   "Digital":[
+
+                   ]
+                }
+            ],
+            "Can 1": [
+               {
+                    "Name": "pedalLeft",
+                    "ID": "320",
+                    "IN/OUT Frame": "IN",
+                    "Sync Frame": "pedalRight",
+                    "Analog":[
+                         {
+                             "Name": "throttleLeftMax",
+                             "Start Bit": 10,
+                             "Bit Size": 10
+                         },
+                         {
+                             "Name": "throttleLeftMin",
+                             "Start Bit": 40,
+                             "Bit Size": 10
+                         },
+                         {
+                             "Name": "throttleLeftValue",
+                             "Start Bit": 0,
+                             "Bit Size": 10
+                         },
+                         {
+                             "Name": "breakPressureFront",
+                             "Start Bit": 20,
+                             "Bit Size": 10
+                         
+                         }
+ 
+                    ],
+                    "Digital":[
+ 
+                    ]
+                 }
+                
+            ],
+            "Can 3": [
+                {
+                    "Name": "InverterFrontLeft_1",
+                    "ID": "283",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "inverterActualRPM_FL",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterActualTorque_FL",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },{
+                            "Name": "invertersVoltage_FL",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "inverterSystemReady_FL",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "inverterError_FL",
+                                "Start Bit": 9
+                            },{
+                                "Name": "inverterDCon_FL",
+                                "Start Bit": 11
+                            },
+                            {
+                                "Name": "inverterOn_FL",
+                                "Start Bit": 13
+                            },{
+                                "Name": "inverterDerating_FL",
+                                "Start Bit": 15
+                            }
+                        ]
+                },{
+                    "Name": "InverterFrontLeft_2",
+                    "ID": "285",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "motorTemp_FL",
+                            "Start Bit": 0,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterTemp_FL",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "IGBTTemp_FL",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        },{
+                            "Name": "inverterErrorCode_FL",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                           
+                        ] 
+                },{
+                    "Name": "InverterFrontLeft_out",
+                    "ID": "184",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                        {
+                            "Name": "out_targetTorque_FL",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitPos",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitNeg",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "out_inverterOn_FL",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "out_inverterDCon_FL",
+                                "Start Bit": 9
+                            },{
+                                "Name": "out_inverterEnable_FL",
+                                "Start Bit": 10
+                            },
+                            {
+                                "Name": "out_inverterErrorReset_FL",
+                                "Start Bit": 11
+                            }
+                        ]
+                },
+                {
+                    "Name": "InverterFrontRight_1",
+                    "ID": "284",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "inverterActualRPM_FR",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterActualTorque_FR",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },{
+                            "Name": "invertersVoltage_FR",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "inverterSystemReady_FR",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "inverterError_FR",
+                                "Start Bit": 9
+                            },{
+                                "Name": "inverterDCon_FR",
+                                "Start Bit": 11
+                            },
+                            {
+                                "Name": "inverterOn_FR",
+                                "Start Bit": 13
+                            },{
+                                "Name": "inverterDerating_FR",
+                                "Start Bit": 15
+                            }
+                        ]
+                },{
+                    "Name": "InverterFrontRight_2",
+                    "ID": "286",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "motorTemp_FR",
+                            "Start Bit": 0,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterTemp_FR",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "IGBTTemp_FR",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        },{
+                            "Name": "inverterErrorCode_FR",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                           
+                        ] 
+                },{
+                    "Name": "InverterFrontRight_out",
+                    "ID": "185",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                        {
+                            "Name": "out_targetTorque_FR",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitPos",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitNeg",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "out_inverterOn_FR",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "out_inverterDCon_FR",
+                                "Start Bit": 9
+                            },{
+                                "Name": "out_inverterEnable_FR",
+                                "Start Bit": 10
+                            },
+                            {
+                                "Name": "out_inverterErrorReset_FR",
+                                "Start Bit": 11
+                            }
+                        ]
+                },{
+                    "Name": "InverterRearLeft_1",
+                    "ID": "287",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "inverterActualRPM_RL",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterActualTorque_RL",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },{
+                            "Name": "invertersVoltage_RL",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "inverterSystemReady_RL",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "inverterError_RL",
+                                "Start Bit": 9
+                            },{
+                                "Name": "inverterDCon_RL",
+                                "Start Bit": 11
+                            },
+                            {
+                                "Name": "inverterOn_RL",
+                                "Start Bit": 13
+                            },{
+                                "Name": "inverterDerating_RL",
+                                "Start Bit": 15
+                            }
+                        ]
+                },{
+                    "Name": "InverterRearLeft_2",
+                    "ID": "289",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "motorTemp_RL",
+                            "Start Bit": 0,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterTemp_RL",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "IGBTTemp_RL",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        },{
+                            "Name": "inverterErrorCode_RL",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                           
+                        ] 
+                },
+                {
+                    "Name": "InverterRearLeft_out",
+                    "ID": "188",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                        {
+                            "Name": "out_targetTorque_RL",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitPos",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitNeg",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "out_inverterOn_RL",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "out_inverterDCon_RL",
+                                "Start Bit": 9
+                            },{
+                                "Name": "out_inverterEnable_RL",
+                                "Start Bit": 10
+                            },
+                            {
+                                "Name": "out_inverterErrorReset_RL",
+                                "Start Bit": 11
+                            }
+                        ]
+                },
+                {
+                    "Name": "InverterRearRight_1",
+                    "ID": "288",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "inverterActualRPM_RR",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterActualTorque_RR",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },{
+                            "Name": "invertersVoltage_RR",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "inverterSystemReady_RR",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "inverterError_RR",
+                                "Start Bit": 9
+                            },{
+                                "Name": "inverterDCon_RR",
+                                "Start Bit": 11
+                            },
+                            {
+                                "Name": "inverterOn_RR",
+                                "Start Bit": 13
+                            },{
+                                "Name": "inverterDerating_RR",
+                                "Start Bit": 15
+                            }
+                        ]
+                },{
+                    "Name": "InverterRearRight_2",
+                    "ID": "28A",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "motorTemp_RR",
+                            "Start Bit": 0,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "inverterTemp_RR",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "IGBTTemp_RR",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        },{
+                            "Name": "inverterErrorCode_RR",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                           
+                        ] 
+                },
+                {
+                    "Name": "InverterRearRight_out",
+                    "ID": "189",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                        {
+                            "Name": "out_targetTorque_RR",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitPos",
+                            "Start Bit": 32,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "out_torqueLimitNeg",
+                            "Start Bit": 48,
+                            "Bit Size": 16
+                        }
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "out_inverterOn_RR",
+                                "Start Bit": 8
+                            },
+                            {
+                                "Name": "out_inverterDCon_RR",
+                                "Start Bit": 9
+                            },{
+                                "Name": "out_inverterEnable_RR",
+                                "Start Bit": 10
+                            },
+                            {
+                                "Name": "out_inverterErrorReset_RR",
+                                "Start Bit": 11
+                            }
+                        ]
+                },{
+                    "Name":"steering",
+                    "ID": "00002905",
+                    "Extended ID": true,
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "steeringPosition",
+                            "Start Bit": 0,
+                            "Bit Size": 16,
+                            "Byte Inverted": true
+                        },
+                        {
+                            "Name": "steeringSpeed",
+                            "Start Bit": 16,
+                            "Bit Size": 16,
+                            "Byte Inverted": true
+                        },
+                        {
+                            "Name": "steeringCurrent",
+                            "Start Bit": 32,
+                            "Bit Size": 16,
+                            "Byte Inverted": true
+                        },
+                        {
+                            "Name": "steeringTemperature",
+                            "Start Bit": 48,
+                            "Bit Size": 8,
+                            "Byte Inverted": true
+                        },
+                        {
+                            "Name": "steeringErrorCode",
+                            "Start Bit": 56,
+                            "Bit Size": 8,
+                            "Byte Inverted": true
+                        }
+                    ],
+                    "Digital":[]
+                },{
+                    "Name":"steering_out",
+                    "ID": "00000605",
+                    "Extended ID": true,
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                        {
+                            "Name": "out_steeringPosition",
+                            "Start Bit": 0,
+                            "Bit Size": 32,
+                            "Byte Inverted": true
+                        },
+                        {
+                            "Name": "out_steeringSpeed",
+                            "Start Bit": 32,
+                            "Bit Size": 16,
+                            "Byte Inverted": true
+                        },
+                        {
+                            "Name": "out_steeringAcceleration",
+                            "Start Bit": 48,
+                            "Bit Size": 16,
+                            "Byte Inverted": true
+                        }
+                    ],
+                    "Digital":[]
+                }
+            ],
+            "Can 0": [
+                {
+                    "Name": "HVCB",
+                    "ID": "320",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[{
+                        "Name": "LV_Battery_24V",
+                        "Start Bit": 6,
+                        "Bit Size": 10
+                    },{
+                        "Name": "DC_DC_24V",
+                        "Start Bit": 17,
+                        "Bit Size": 10
+                    },{
+                        "Name": "input_12V",
+                        "Start Bit": 28,
+                        "Bit Size": 10
+                    }
+                ],
+                    "Digital":[
+                        {
+                            "Name": "DVon",
+                            "Start Bit": 5
+                        },
+                        {
+                            "Name": "SDC_Pressed",
+                            "Start Bit": 4
+                        }
+                    ]
+                },
+                {
+                    "Name": "HVCB_out",
+                    "ID": "420",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[],
+                    "Digital":[
+                        {
+                            "Name": "out_dischargeRelay",
+                            "Start Bit": 12
+                        },
+                        {
+                            "Name": "out_RTDsoundOn",
+                            "Start Bit": 14
+                        }
+                    ]
+                },
+                {
+                    "Name": "accumulator_1",
+                    "ID": "310",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "accuStateOfCharge",
+                            "Start Bit": 48,
+                            "Bit Size": 8
+                        },{
+                            "Name": "accuTemperature",
+                            "Start Bit": 40,
+                            "Bit Size": 8
+                        },
+                        {
+                            "Name": "HVvoltage",
+                            "Start Bit": 16,
+                            "Bit Size": 16
+                        },
+                        {
+                            "Name": "HVcurrent",
+                            "Start Bit": 32,
+                            "Bit Size": 8
+                        }
+                   ],
+                   "Digital":[
+                        {
+                            "Name": "prechargeRelay",
+                            "Start Bit": 5
+                        },
+                        {
+                            "Name": "AIRPositive",
+                            "Start Bit": 3
+                        },
+                        {
+                            "Name": "AIRNegative",
+                            "Start Bit": 4
+                        }
+                   ]
+                },{
+                    "Name": "accumulator_2",
+                    "ID": "521",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                        {
+                            "Name": "current",
+                            "Start Bit": 16,
+                            "Bit Size": 32,
+                            "Byte Inverted": true
+                        }
+                   ],
+                   "Digital":[]
+                },{
+                    "Name":"accumulator_out",
+                    "ID": "410",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                      
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "out_AIRPositive",
+                                "Start Bit": 0
+                            },{
+                                "Name": "out_AIRNegative",
+                                "Start Bit": 1
+                            },{
+                                "Name": "out_prechargeRelay",
+                                "Start Bit": 2
+                            }
+                        ]
+                },
+                {
+                    "Name": "cockpitButtons",
+                    "ID": "330",
+                    "IN/OUT Frame": "IN",
+                    "Analog":[
+                       
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "TSButton",
+                                "Start Bit": 4
+                            },
+                            {
+                                "Name": "RTDButton",
+                                "Start Bit": 5
+                            }
+                        ]
+                },{
+                    "Name":"cockpitButtons_out",
+                    "ID": "430",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+                       
+                     ],
+                        "Digital":[
+                            {
+                                "Name": "out_JetsonOn",
+                                "Start Bit": 14 
+                            },{
+                                "Name": "out_breakLightOn",
+                                "Start Bit": 12  
+                            },{
+                                "Name": "out_TSLed",
+                                "Start Bit": 10
+                            },
+                            {
+                                "Name": "out_RTDLed",
+                                "Start Bit": 8
+                            }
+                        ]
+                },
+                {
+                    "Name": "ASSI_out",
+                    "ID": "440",
+                    "IN/OUT Frame": "OUT",
+                    "Analog":[
+
+                    ],
+                    "Digital":[
+                        {
+                            "Name": "out_ASSIred",
+                            "Start Bit": 1
+                        },
+                        {
+                            "Name": "out_ASSIgreen",
+                            "Start Bit": 2
+                        },
+                        {
+                            "Name": "out_ASSIblue",
+                            "Start Bit": 3
+                        }
+                        
+                    ]
+                }
+                
+            ]
+                
+
+    
+}

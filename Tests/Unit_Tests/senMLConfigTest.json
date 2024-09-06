@@ -1,0 +1,48 @@
+[
+    [
+      {"bn":"ECU","n":"pedal","vs":"sensor"},
+	    {"n":"throttleLeft","u":"%","v":"throttle"},
+	    {"n":"brakeFront","u":"%","v":"breakPercentage"},
+	    {"n":"brakeBack","vb":"breakPressed"},
+      {"n":"motor state","u":"state","v":"currentState"}
+    ],[
+      {"bn":"ECU","n":"inverter","vs":"sensor"},
+	    {"n":"motor temp","u":"c","v":"motorTemp_FL"},
+	    {"n":"inverter temp","u":"c","v":"inverterTemp_FL"},
+	    {"n":"igbt temp","u":"V","v":"IGBTTemp_FR"},
+	    {"n":"LVShutdown","vb":"SDC_Pressed"}
+    ],
+    [
+      {"bn":"ECU","n":"assi","vs":"actuator"},
+	    {"n":"r1","vb":"out_ASSIred"},
+	    {"n":"g1","vb":"out_ASSIgreen"},
+	    {"n":"b1","vb":"out_ASSIblue"},
+	
+	    {"n":"r2","vb":"out_ASSIred"},
+	    {"n":"g2","vb":"out_ASSIgreen"},
+	    {"n":"b2","vb":"out_ASSIblue"},
+
+	    {"n":"r3","vb":"out_ASSIred"},
+	    {"n":"g3","vb":"out_ASSIgreen"},
+	    {"n":"b3","vb":"out_ASSIblue"}
+    ],
+    [
+      {"bn":"ECU","n":"error","vs":"code"},
+      {"n":"code","v":""} 
+    ],
+    [
+      {"bn":"ECU","n":"error","vs":"map"}
+    ],[
+      {"bn":"ECU","n":"DV","vs":"actuator"},
+	    {"n":"throttleLeftMax","u":"%","v":"throttleLeftMax"},
+	    {"n":"breakPressureFront","u":"%","v":"breakPressureFront"},
+	    {"n":"SDC_Pressed","vb":"SDC_Pressed"},
+      {"n":"out_targetTorque_FL","u":"C","v":"out_targetTorque_FL"}
+    ],[
+      {"bn":"ECU","n":"diagnistic","vs":"actuator"},
+	    {"n":"accuStateOfCharge","u":"%","v":"accuStateOfCharge"},
+	    {"n":"prechargeRelay","u":"%","v":"prechargeRelay"},
+	    {"n":"TSButton","vb":"TSButton"},
+      {"n":"invertersVoltage_FL","u":"C","v":"invertersVoltage_FL"}
+    ]
+]  

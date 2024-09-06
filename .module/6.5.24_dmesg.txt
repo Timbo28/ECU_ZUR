@@ -1,0 +1,38 @@
+[   18.437894] NVRM rpcRmApiControl_dce: NVRM_RPC_DCE: Failed RM ctrl call cmd:0x731341 result 0xffff:
+[   19.882109] r8168: eth0: link up
+[   19.882241] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[  460.164747] mcp251x: no symbol version for module_layout
+[  460.170367] mcp251x: module verification failed: signature and/or required key missing - tainting kernel
+[  460.202026] mcp251x spi0.0 can1: MCP2515 successfully initialized.
+[  460.224043] mcp251x spi0.1 can2: MCP2515 successfully initialized.
+[  460.240027] Info: Thread entered
+[  460.253450] IPv6: ADDRCONF(NETDEV_CHANGE): can1: link becomes ready
+[  460.264820] Info: Thread entered
+[  461.272038] IPv6: ADDRCONF(NETDEV_CHANGE): can2: link becomes ready
+[  638.827676] irq 294: nobody cared (try booting with the "irqpoll" option)
+[  638.834674] CPU: 0 PID: 417 Comm: spi0 Tainted: G           OE     5.10.120-tegra #1
+[  638.834676] Hardware name: Unknown NVIDIA Orin NX Developer Kit/NVIDIA Orin NX Developer Kit, BIOS 4.1-33958178 08/01/2023
+[  638.834678] Call trace:
+[  638.834690]  dump_backtrace+0x0/0x1d0
+[  638.834693]  show_stack+0x30/0x40
+[  638.834700]  dump_stack+0xd8/0x138
+[  638.834701]  __report_bad_irq+0x58/0xe4
+[  638.834706]  note_interrupt+0x2dc/0x3a0
+[  638.834711]  handle_irq_event_percpu+0x90/0xa0
+[  638.834713]  handle_irq_event+0x50/0xf0
+[  638.834716]  handle_level_irq+0xc0/0x140
+[  638.834718]  generic_handle_irq+0x40/0x60
+[  638.834724]  tegra186_gpio_irq+0x124/0x1f0
+[  638.834726]  generic_handle_irq+0x40/0x60
+[  638.834728]  __handle_domain_irq+0x70/0xd0
+[  638.834730]  gic_handle_irq+0x68/0x134
+[  638.834731]  el1_irq+0xd0/0x180
+[  638.834739]  0xffffd594949ac0c0
+[  638.834744]  __spi_pump_messages+0x374/0x830
+[  638.834745]  spi_pump_messages+0x28/0x40
+[  638.834747]  kthread_worker_fn+0xa0/0x170
+[  638.834749]  kthread+0x148/0x170
+[  638.834751]  ret_from_fork+0x10/0x24
+[  638.834752] handlers:
+[  638.837083] [<00000000ed6e5b27>] irq_default_primary_handler threaded [<00000000cd04500a>] pca953x_irq_handler
+[  638.847363] Disabling IRQ #294

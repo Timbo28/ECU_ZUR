@@ -1,0 +1,15 @@
+[submodule "Libraries/json"]
+	path = Libraries/json
+	url = https://github.com/nlohmann/json 
+
+[submodule "Libraries/pfg"]
+	path = Libraries/pfr
+	url = https://github.com/boostorg/pfr
+
+[submodule "Tests/Test_Librarys/googletest"]
+	path = Tests/Test_Librarys/googletest
+	url = https://github.com/google/googletest
+
+[submodule "Libraries/spdlog"]
+	path = Libraries/spdlog
+	url =https://github.com/gabime/spdlog

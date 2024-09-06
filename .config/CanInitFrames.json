@@ -1,0 +1,163 @@
+{
+    "Pedal Left Init Frame":{
+        "Can Bus": 2,
+        "ID": "41F",
+        "Data":{
+            "Byte 0": "0x00",
+            "Byte 1": "0x30",
+            "Byte 2": "0xc6",
+            "Byte 3": "0x18",
+            "Byte 4": "0x03",
+            "Byte 5": "0x34",
+            "Byte 6": "0x00",
+            "Byte 7": "0x00"
+
+        }
+    },
+    "Pedal Right Init Frame":{
+        "Can Bus": 1,
+        "ID": "42F",
+        "Data":{
+           "Byte 0": "0x00",
+            "Byte 1": "0x30",
+            "Byte 2": "0xc6",
+            "Byte 3": "0x18",
+            "Byte 4": "0x03",
+            "Byte 5": "0x34",
+            "Byte 6": "0x00",
+            "Byte 7": "0x00"
+
+        }
+    },
+
+    "Cockpit Init Frame0":{
+        "Can Bus": 0,
+        "ID": "431",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFF",
+            "Byte 2": "0x00",
+            "Byte 3": "0x00",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x28",
+            "Byte 7": "0x02"
+
+        }
+    },"Cockpit Init Frame1":{
+        "Can Bus": 0,
+        "ID": "431",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFF",
+            "Byte 2": "0x00",
+            "Byte 3": "0x00",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x28",
+            "Byte 7": "0x02"
+
+        }
+    },"Cockpit Init Frame2":{
+        "Can Bus": 0,
+        "ID": "431",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFF",
+            "Byte 2": "0x00",
+            "Byte 3": "0x00",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x28",
+            "Byte 7": "0x02"
+
+        }
+    },"Cockpit Init Frame3":{
+        "Can Bus": 0,
+        "ID": "431",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFF",
+            "Byte 2": "0x00",
+            "Byte 3": "0x00",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x28",
+            "Byte 7": "0x02"
+
+        }
+    },
+    "HVCB Init Frame0":{
+        "Can Bus": 0,
+        "ID": "421",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFC",
+            "Byte 2": "0xD6",
+            "Byte 3": "0xB4",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x11",
+            "Byte 7": "0x00"
+
+        }
+    },
+    "HVCB Init Frame1":{
+        "Can Bus": 0,
+        "ID": "421",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFC",
+            "Byte 2": "0xD6",
+            "Byte 3": "0xB4",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x11",
+            "Byte 7": "0x00"
+
+        }
+    },"HVCB Init Frame2":{
+        "Can Bus": 0,
+        "ID": "421",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFC",
+            "Byte 2": "0xD6",
+            "Byte 3": "0xB4",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x11",
+            "Byte 7": "0x00"
+
+        }
+    },"HVCB Init Frame3":{
+        "Can Bus": 0,
+        "ID": "421",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFC",
+            "Byte 2": "0xD6",
+            "Byte 3": "0xB4",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x11",
+            "Byte 7": "0x00"
+
+        }
+    },"HVCB Init Frame4":{
+        "Can Bus": 0,
+        "ID": "421",
+        "Data":{
+            "Byte 0": "0xFA",
+            "Byte 1": "0xFC",
+            "Byte 2": "0xD6",
+            "Byte 3": "0xB4",
+            "Byte 4": "0x00",
+            "Byte 5": "0x00",
+            "Byte 6": "0x11",
+            "Byte 7": "0x00"
+
+        }
+    }
+
+}
